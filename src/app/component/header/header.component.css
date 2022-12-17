@@ -1,0 +1,23 @@
+.mat-toolbar-row{
+  justify-content: center;
+
+}
+.mat-grid-tile{
+  left: calc((10% - 0.75px + 1px) * 1);
+    width: calc((25% - 0.75px) * 2 + 1px);
+    top: 0px;
+    height: calc(100px);
+}
+img {
+  width: -webkit-fill-available;
+}
+button.mat-button .mat-icon,
+a.mat-button .mat-icon,
+a.mat-raised-button .mat-icon,
+a.mat-flat-button .mat-icon,
+a.mat-stroked-button .mat-icon {
+  vertical-align: top;
+}
+.search{
+padding: 1rem;
+}
